@@ -35,7 +35,7 @@ const Register = () => {
   const registerHandle = () => {
     const fetchData = async () => {
       const res = await axios.post(
-        "https://signage-backend.onrender.com:10000/Auth/register",
+        "https://velocity-backend-service.onrender.com/Auth/register",
         {
           email: email,
           password: password,

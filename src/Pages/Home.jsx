@@ -7,7 +7,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios.get(
-        "https://signage-backend.onrender.com:10000/Auth/blogdata"
+        "https://velocity-backend-service.onrender.com/Auth/blogdata"
       );
       setData(res.data);
     };

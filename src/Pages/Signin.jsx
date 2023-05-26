@@ -19,7 +19,7 @@ const Login = () => {
     const fetchData = async () => {
       try {
         const res = await axios.post(
-          "https://signage-backend.onrender.com:10000/Auth/login",
+          "https://velocity-backend-service.onrender.com/Auth/login",
           {
             email: email,
             password: password,
